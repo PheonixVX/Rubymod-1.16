@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "rubymod",
+  "version": "${version}",
+
+  "name": "Ruby Mod",
+  "description": "A Simple Ruby Mod for 1.16",
+  "authors": [
+    "PheonixVX"
+  ],
+  "contact": {
+    "homepage": "https://github.com/PheonixVX"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/rubymod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.PheonixVX.RubyMod"
+    ]
+  },
+  "mixins": [
+    "rubymod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
